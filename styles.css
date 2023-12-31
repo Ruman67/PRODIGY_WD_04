@@ -1,0 +1,72 @@
+/* Basic styles, adjust as per your design */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .hero {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .hero img {
+    border-radius: 50%;
+    width: 200px; /* Adjust size as needed */
+    height: 200px; /* Adjust size as needed */
+  }
+  
+  .about-me {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .projects {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .contact {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .first-line-indent {
+    text-indent: 20px; /* Adjust the value to set the desired indentation */
+    display: block;
+  }
+  
